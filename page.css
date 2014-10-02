@@ -1,0 +1,80 @@
+/* Fonts */
+
+@font-face {
+  font-family: bebas-neue;
+  src: url(fonts/BebasNeue.otf);
+  font-weight: bold;
+}
+
+/* Main Properties */
+
+body {
+  background-color: #ADA5A9;
+}
+
+/* Titles */
+
+.title {
+  font-family: bebas-neue;
+  color: white;
+  font-size: 800%;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-bottom: 1px;
+}
+
+.subtitle {
+  font-family: bebas-neue;
+  color: white;
+  font-size: 300%;
+  padding-left: 20px;
+  margin: 5px;
+}
+
+#hostpagetitle {
+  padding-top: 10px;
+}
+
+#hosttitle {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+/* Hosts Page */
+
+.hal_profile, .other_profile {
+  float: left;
+  padding: 10px 15px 15px 20px;
+  width: 47%;
+}
+
+.profimg {
+  float: left;
+  padding-right: 10px;
+}
+
+.host_info {
+  float: left;
+  padding-left: 5px;
+}
+
+.sub_paragraph {
+  margin: 2px 0px 0px 0px;
+}
+
+#line1 {
+  margin-top: 8px;    /* <-- This is for the first line of sub_paragraph */
+}
+
+/*
+.sec_profile1, .sec_profile2 {
+  float: left;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+
+.sec_profile_info {
+  float: right;
+  padding-left: 10px;
+}
+*/

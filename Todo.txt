@@ -1,0 +1,17 @@
+Todo:
+- Try out both fonts
+- Photoshop the background of the website.
+- Create page for other members of the livestream team.
+- Add Hal's text:
+    My name is Hal. I'm the Producer,
+    Coordinator, and general Brain-Trust (haha) of the Level One Show.
+    I first came up with the idea for the show during a sick day in
+    March of 2014. I was heavily influenced by thejarren's "Tux Show"
+    he hosted over the fall of 2013. Instead of just focusing on
+    interviewing everyone's favorite YouTuber, I decided I wanted to
+    go deeper in the Gaming community. I was lucky enough for Mak Sok,
+    the CTO of the website player.me to be our first guest ever on the
+    show. Lately, I've been coming up with more ideas to make the
+    Level One Show brand more diverse, like Charity Livestreams, and
+    our own Stream Team. If you have any ideas or questions, feel free
+    to tweet at me!
