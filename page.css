@@ -6,10 +6,22 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: belanusa;
+  src: url(fonts/YanoneKaffeesatz.otf);
+  font-weight: bold;
+}
+
 /* Main Properties */
 
-body {
-  background-color: #ADA5A9;
+.back {
+  position: fixed;
+  left: -5;
+  z-index: 0;
+  width: 105%;
+  height: 105%;
+  display: block;
+  background-color: gray;
 }
 
 /* Titles */
@@ -40,12 +52,27 @@ body {
   margin: 0px;
 }
 
+#streamtitle {
+  padding-top: 10px;
+}
+
+#donatetitle {
+  padding-left: 0px;
+  margin: 0px;
+}
+
 /* Hosts Page */
 
 .hal_profile, .other_profile {
-  float: left;
+  clear: left;
+}
+
+.hal_profile {
   padding: 10px 15px 15px 20px;
-  width: 47%;
+}
+
+.other_profile {
+  padding: 4% 15px 15px 20px;
 }
 
 .profimg {
@@ -59,16 +86,44 @@ body {
 }
 
 .sub_paragraph {
-  margin: 2px 0px 0px 0px;
+  font-family: belanusa;
+  font-size: 150%;
+  color: white;
+  margin: 2px  0px 0px 0px;
+  max-width: 50vmin;
+  line-height: 120%;
 }
 
-#line1 {
-  margin-top: 8px;    /* <-- This is for the first line of sub_paragraph */
+.social_links {
+  margin: 0px 0px 9px 0px;
 }
 
-.twitter {
+.twitter, .youtube {
+  width: 30px;
+  -webkit-filter:invert(1);
+  transition-duration: 0.4s;
+}
+
+.twitter:hover, .youtube:hover  {
+  -webkit-filter:invert(0);
+}
+
+/* Stream Page */
+
+.stream, .chat, .donate {
+  float: left;
+  padding-left: 20px;
   padding-top: 10px;
-  width: 15%;
+}
+
+.streamframe {
+  height: 34vw;
+  width: 60vw;
+}
+
+.chatframe {
+  height: 34vw;
+  width: 20vw;
 }
 
 /*
