@@ -45,6 +45,7 @@
 
 #hostpagetitle {
   padding-top: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 #hosttitle {
@@ -54,6 +55,7 @@
 
 #streamtitle {
   padding-top: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 #donatetitle {
@@ -72,7 +74,7 @@
 }
 
 .other_profile {
-  padding: 4% 15px 15px 20px;
+  padding: 2% 15px 15px 20px;
 }
 
 .profimg {
@@ -123,7 +125,7 @@
 
 .chatframe {
   height: 34vw;
-  width: 20vw;
+  width: 17vw;
 }
 
 /*
