@@ -20,7 +20,7 @@ Show to create this website.
 
 **Fonts:**
  
- *Bebas Neue:* Created by __, Bebas Neue is used in all of the titles an subtitles.
+ *Bebas Neue:* Created by Dharma Type, Bebas Neue is used in all of the titles an subtitles.
  It is registered under the SIL Open Font License v1.1.
  
  *Yanone Kaffeesatz:* Created by Yanone, this font is used in the paragraphs and
