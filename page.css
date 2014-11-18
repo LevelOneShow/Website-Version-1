@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: belanusa;
+  font-family: yanone;
   src: url(fonts/YanoneKaffeesatz.otf);
   font-weight: bold;
 }
@@ -30,8 +30,8 @@
   font-family: bebas-neue;
   color: white;
   font-size: 800%;
-  padding-left: 20px;
-  padding-top: 15px;
+  padding-left: 2vmin;
+  padding-top: 10%;
   margin-bottom: 1px;
 }
 
@@ -39,22 +39,25 @@
   font-family: bebas-neue;
   color: white;
   font-size: 300%;
-  padding-left: 20px;
+  padding-left: 2vmin;
   margin: 5px;
 }
 
 #hostpagetitle {
   padding-top: 10px;
+  padding-left: 2vmin;
   margin: 0px 0px 0px 0px;
 }
 
 #hosttitle {
-  padding-left: 0px;
+  padding: 5px 0 0 0px;
   margin: 0px;
+  float: left;
 }
 
 #streamtitle {
   padding-top: 10px;
+  padding-left: 2vmin;
   margin: 0px 0px 0px 0px;
 }
 
@@ -63,50 +66,41 @@
   margin: 0px;
 }
 
+/* Title Page */
+
+.homeicons {
+  padding-left: 25px;
+}
+
 /* Hosts Page */
 
 .hal_profile, .other_profile {
-  clear: left;
-}
-
-.hal_profile {
-  padding: 10px 15px 15px 20px;
-}
-
-.other_profile {
-  padding: 2% 15px 15px 20px;
-}
-
-.profimg {
   float: left;
-  padding-right: 10px;
+  padding-left: 2vmin;
 }
 
-.host_info {
-  float: left;
-  padding-left: 5px;
+.profimg-img {
+  width: 20vmax;
 }
 
 .sub_paragraph {
-  font-family: belanusa;
+  clear: left;
+  font-family: yanone;
   font-size: 150%;
   color: white;
   margin: 2px  0px 0px 0px;
-  max-width: 50vmin;
+  max-width: 80vmin;
   line-height: 120%;
 }
 
-.social_links {
-  margin: 0px 0px 9px 0px;
-}
-
-.twitter, .youtube {
-  width: 30px;
+ .twitter, .youtube, .twitch {
+  padding: 13px 0 0 5px;
+  width: 35px;
   -webkit-filter:invert(1);
   transition-duration: 0.4s;
 }
 
-.twitter:hover, .youtube:hover  {
+.twitter:hover, .youtube:hover, .twitch:hover {
   -webkit-filter:invert(0);
 }
 
@@ -114,7 +108,7 @@
 
 .stream, .chat, .donate {
   float: left;
-  padding-left: 20px;
+  padding-left: 2vmin;
   padding-top: 10px;
 }
 
@@ -123,9 +117,20 @@
   width: 60vw;
 }
 
-.chatframe {
-  height: 34vw;
-  width: 17vw;
+.donatelnk {
+  border: 2px solid white;
+  padding: 2px 5px 5px 5px;
+  margin: 0px;
+  color: white;
+  font-family: yanone;
+  font-size: 200%;
+  background: black;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.donatelnk:hover {
+  background: white;
 }
 
 /*
