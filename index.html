@@ -13,25 +13,31 @@
     <div class="back"></div>
     <div class="main">
       <section id="home">
-        <h1 class="title">The Level One Show</h1>
-        <div class="navbar">
-          <a class="navitem" id="firstnav" onclick="moveTo('.main', 2);" href="javascript:void(0);">Hosts</a>
-          <p class="sep">|</p>
-          <a class="navitem" onclick="moveTo('.main', 3);" href="javascript:void(0);">Stream</a>
-          <p class="sep">|</p>
-          <a class="navitem" href="pages/team.html">Team</a>
-          <p class="sep">|</p>
-          <div class="homeicons">
-            <a href="https://www.youtube.com/user/lvl1show/">
-              <img class="youtube" id="home_tube" src="icons/social18.svg" alt="hal_youtube">
-            </a>
-            <a href="https://www.twitter.com/lvl1show">
-              <img class="twitter" id="home_twitter" src="icons/social71.svg" alt="hal_twitter">
-            </a>
+        <div class="page_home">
+          <h1 class="title">The Level One Show</h1>
+          <div class="navbar">
+            <a class="navitem" id="firstnav" onclick="moveTo('.main', 2);" href="javascript:void(0);">Hosts</a>
+            <p class="sep">|</p>
+            <a class="navitem" href="pages/team.html">Team</a>
+            <p class="sep">|</p>
+            <a class="navitem" onclick="moveTo('.main', 3);" href="javascript:void(0);">Stream & Donate</a>
+            <p class="sep">|</p>
+            <div class="homeicons">
+              <a href="https://www.youtube.com/user/lvl1show/">
+                <img class="youtube" id="home_tube" src="icons/social18.svg" alt="hal_youtube">
+              </a>
+              <a href="https://www.twitter.com/lvl1show">
+                <img class="twitter" id="home_twitter" src="icons/social71.svg" alt="hal_twitter">
+              </a>
+            </div>
           </div>
+          <h1 class="subtitle" id="about">About Us:</h1>
+          <p class="sub_paragraph" id="about_desc">Welcome to the Level One Show!
+          We are a group that livestreams games, gaming podcasts, and anything
+          otherwise related to gaming. Over the winter, we are going to be doing
+          TWO charity livestreams. You can go to the navigation link titled "Stream
+          & Donate" for more information.</p>
         </div>
-        <h1 class="subtitle" id="about">About Us:</h1>
-        <p class="sub_paragraph" id="about_desc">Some filer text!</p>
       </section>
       <section id="hosts">
         <!-- Main profiles - for Hal and the other main host -->
@@ -92,29 +98,12 @@
               you have any questions, feel free to hit me up on twitter.</p>
             </div>
           </div>
+          <div class="team_link">
+            <a class="team_page" href="pages/team.html">Go to the Rest of the Team</a>
+            <img class="goto" src="icons/arrow487.svg" alt="goto">
+          </div>
         </div>
       </section>
-      <!--
-      <section id="Profiles">
-      <h1 class="subtitle">Other Members</h1>
-      <div class="row" id="row_1">
-        <div class="sec_profile1">
-          <img src="images/profile_placeholder.png" alt="prof">
-          <div class="sec_profile_info">
-            <h1 class="psubtitle">Test</h1>
-            <p class="sub_paragraph">Hello, I am some filler text!</p>
-          </div>
-        </div>
-        <div class="sec_profile2">
-          <img src="images/profile_placeholder.png" alt="prof">
-          <div class="sec_profile_info">
-            <h1 class="psubtitle">Test</h1>
-            <p class="sub_paragraph">Hello, I am some filler text!</p>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="row_2"></div>
-      </section> -->
       <section id="stream">
         <div class="page_stream">
           <h1 class="subtitle" id="streamtitle">Stream & Donate</h1>
@@ -128,7 +117,7 @@
             1: Winter is dedicated to the charitable side of the Gaming Community.
             Through 4 Livestreams, our goal is set to raise $500, but we hope to
             surpass this by far!</p>
-            <a class="donatelnk" href="https://www.onlineredkettle.org/lvl1show">Donate Here</a>
+            <a class="donatelnk" href="#">Coming Soon</a>
           </div>
         </div>
       </section>

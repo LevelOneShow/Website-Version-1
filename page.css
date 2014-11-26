@@ -71,6 +71,10 @@
 
 /* Title Page */
 
+.page_home {
+  -moz-transform: translateY(-30%);
+}
+
 .navbar {
   display: inline-block;
   width: auto;
@@ -175,6 +179,25 @@
   -webkit-filter:invert(0);
 }
 
+.team_link {
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+.team_page {
+  font-family: yanone;
+  font-size: 130%;
+  color: white;
+  text-decoration: none;
+}
+
+.goto {
+  height: 40px;
+  transform: translateY(35%);
+  -moz-transform: translateY(35%);
+  -webkit-filter:invert(1);
+}
+
 /* Stream Page */
 
 .page_stream {
@@ -208,9 +231,13 @@
   transition-duration: 0.4s;
 }
 
+/* Uncomment when donations go live
+
 .donatelnk:hover {
   background: grey;
 }
+
+*/
 
 .donate_divider {
   border-top: solid 1px white;
@@ -222,16 +249,3 @@
   max-width: 30vmin;
   padding-bottom: 1vmin;
 }
-
-/*
-.sec_profile1, .sec_profile2 {
-  float: left;
-  padding-right: 15px;
-  padding-left: 20px;
-}
-
-.sec_profile_info {
-  float: right;
-  padding-left: 10px;
-}
-*/
