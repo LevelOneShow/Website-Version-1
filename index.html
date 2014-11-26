@@ -15,14 +15,23 @@
       <section id="home">
         <h1 class="title">The Level One Show</h1>
         <div class="navbar">
-        <div class="homeicons">
-          <a href="https://www.youtube.com/user/lvl1show/">
-            <img class="youtube" id="home_tube" src="icons/social18.svg" alt="hal_youtube">
-          </a>
-          <a href="https://www.twitter.com/lvl1show">
-            <img class="twitter" id="home_twitter" src="icons/social71.svg" alt="hal_twitter">
-          </a>
+          <a class="navitem" id="firstnav" onclick="moveTo('.main', 2);" href="javascript:void(0);">Hosts</a>
+          <p class="sep">|</p>
+          <a class="navitem" onclick="moveTo('.main', 3);" href="javascript:void(0);">Stream</a>
+          <p class="sep">|</p>
+          <a class="navitem" href="pages/team.html">Team</a>
+          <p class="sep">|</p>
+          <div class="homeicons">
+            <a href="https://www.youtube.com/user/lvl1show/">
+              <img class="youtube" id="home_tube" src="icons/social18.svg" alt="hal_youtube">
+            </a>
+            <a href="https://www.twitter.com/lvl1show">
+              <img class="twitter" id="home_twitter" src="icons/social71.svg" alt="hal_twitter">
+            </a>
+          </div>
         </div>
+        <h1 class="subtitle" id="about">About Us:</h1>
+        <p class="sub_paragraph" id="about_desc">Some filer text!</p>
       </section>
       <section id="hosts">
         <!-- Main profiles - for Hal and the other main host -->
@@ -30,7 +39,7 @@
           <h1 class="subtitle" id="hostpagetitle">Hosts</h1>
           <div class="hal_profile">
             <div class="profimg-div">
-              <img class="profimg-img" src="images/host_placeholder.png" alt="hal's profile">
+              <img class="profimg-img" src="images/hal.png" alt="hal's profile">
             </div>
             <div class="host_info">
               <h1 class="subtitle" id="hosttitle">HalPlays</h1>
@@ -56,16 +65,16 @@
           </div>
           <div class="other_profile">
             <div class="profimg-div">
-              <img class="profimg-img" src="images/host_placeholder.png" alt="other's profile">
+              <img class="profimg-img" src="images/kuang.png" alt="kuangs's profile">
             </div>
             <div class="host_info">
               <h1 class="subtitle" id="hosttitle">KuangSteak</h1>
               <div class="social_links">
                 <a href="https://www.youtube.com/KuangSteak">
-                  <img class="youtube" id="host_tube" src="icons/social18.svg" alt="other_youtube">
+                  <img class="youtube" id="host_tube" src="icons/social18.svg" alt="kuang_youtube">
                 </a>
                 <a href="https://www.twitter.com/KuangSteak">
-                  <img class="twitter" src="icons/social71.svg" alt="other_twitter">
+                  <img class="twitter" src="icons/social71.svg" alt="kuang_twitter">
                 </a>
               </div>
               <!-- Descriptions -->
