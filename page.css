@@ -189,6 +189,11 @@
   font-size: 130%;
   color: white;
   text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.team_page:hover {
+  color: grey;
 }
 
 .goto {
