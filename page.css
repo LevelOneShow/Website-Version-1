@@ -1,5 +1,6 @@
 /* CSS File for the Level One Show Website */
-/* Open README.md for more information */
+/* Open README.md for more information or go to stillapoet.com/mrflynn/lvloneshow */
+/* Report all bugs to admin@lvloneshow.com */
 
 /* Fonts */
 
@@ -133,7 +134,15 @@
   padding-left: 2vmin;
 }
 
-/* Hosts Page */
+
+
+#important {
+  color: red;
+}
+
+#important:hover {
+  color: grey;
+}
 
 .page_hosts {
   position: relative;
@@ -236,13 +245,9 @@
   transition-duration: 0.4s;
 }
 
-/* Uncomment when donations go live
-
 .donatelnk:hover {
   background: grey;
 }
-
-*/
 
 .donate_divider {
   border-top: solid 1px white;
