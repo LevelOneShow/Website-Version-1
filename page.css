@@ -24,7 +24,8 @@
   width: 100%;
   height: 100%;
   display: block;
-  background: url(images/gradient.png);
+  background: url(images/gradient.png) no-repeat;
+  background-size: cover;
 }
 
 /* Titles */
@@ -134,7 +135,7 @@
   padding-left: 2vmin;
 }
 
-
+/* Comment out when not in use
 
 #important {
   color: red;
@@ -143,6 +144,8 @@
 #important:hover {
   color: grey;
 }
+
+*/
 
 .page_hosts {
   position: relative;
