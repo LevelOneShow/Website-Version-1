@@ -183,7 +183,11 @@
   position: relative;
   transform: translateY(50%);
   width: 35px;
-  -webkit-filter:invert(1);
+  height: 35px;
+  filter: invert(1);
+  /* -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)'; */
+  -webkit-filter: invert(1);
+  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='negative'><feColorMatrix values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#negative");
   transition-duration: 0.4s;
 }
 
