@@ -184,15 +184,16 @@
   transform: translateY(50%);
   width: 35px;
   height: 35px;
-  filter: invert(1);
-  /* -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)'; */
+  /* filter:progid:DXImageTransform.Microsoft.BasicImage(invert=1); This doesn't work anymore because it's apparently deprecated */
   -webkit-filter: invert(1);
-  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='negative'><feColorMatrix values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#negative");
+  /* filter: invert(100%); Uncomment when Firefox 35 comes out */
+  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='negative'><feColorMatrix values='-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0'/></filter></svg>#negative"); /* For Firefox 34 and below - remove with v35 */
   transition-duration: 0.4s;
 }
 
 .twitter:hover, .youtube:hover {
-  -webkit-filter:invert(0);
+  -webkit-filter: none;
+  filter: none;
 }
 
 .team_link {
