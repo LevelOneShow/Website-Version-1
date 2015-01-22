@@ -111,18 +111,18 @@
   color: grey;
 }
 
-#home_tube, #home_twitter {
+#home_tube, #home_twitter, #home_dj {
   padding-top: 10%;
   padding-bottom: 5%;
   width: 35px;
-  transform: translateY(0%);
+  transform: translateY(-5%);
 }
 
 #home_tube {
   padding-left: 5px;
 }
 
-#home_twitter {
+#home_dj {
   padding-right: 10px;
 }
 
@@ -179,7 +179,7 @@
   padding-left: 1vmin;
 }
 
-.youtube, .twitter {
+.youtube, .twitter, .dj {
   position: relative;
   transform: translateY(50%);
   width: 35px;
@@ -191,7 +191,7 @@
   transition-duration: 0.4s;
 }
 
-.twitter:hover, .youtube:hover {
+.twitter:hover, .youtube:hover, .dj:hover {
   -webkit-filter: none;
   filter: none;
 }
