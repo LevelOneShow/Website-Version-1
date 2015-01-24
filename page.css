@@ -117,6 +117,7 @@
   padding-bottom: 5%;
   width: 35px;
   transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
 }
 
 #home_tube {
@@ -185,6 +186,7 @@
 .youtube, .twitter, .dj {
   position: relative;
   transform: translateY(40%);
+  -webkit-transform: translateY(40%);
   width: 35px;
   height: 35px;
   /* filter:progid:DXImageTransform.Microsoft.BasicImage(invert=1); This doesn't work anymore because it's apparently deprecated */
