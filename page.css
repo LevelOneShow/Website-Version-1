@@ -160,7 +160,7 @@
 .page_hosts {
   position: relative;
   top: -5%;
-  -moz-transform: translateY(-100%);
+  -moz-transform: translateY(-10%);
 }
 
 .hal_profile, .other_profile {
@@ -222,7 +222,7 @@
 .page_stream {
   position: relative;
   top: -5%;
-  -moz-transform: translateY(-100%);
+  -moz-transform: translateY(-10%);
 }
 
 .stream, .chat, .donate {
