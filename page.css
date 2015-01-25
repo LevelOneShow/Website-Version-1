@@ -137,6 +137,10 @@
   padding-left: 2vmin;
 }
 
+@media screen and (max-width : 1080px) {
+  #about_desc { font-size: 2rem; }
+}
+
 /* Comment out when not in use
 
 #important {
@@ -153,6 +157,7 @@
 
 .page_hosts {
   position: relative;
+  top: -5%;
   -moz-transform: translateY(-100%);
 }
 
@@ -172,11 +177,19 @@
 .sub_paragraph {
   clear: left;
   font-family: yanone;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   margin: 2px  0px 0px 0px;
   max-width: 80vmin;
   line-height: 120%;
+}
+
+@media only screen and (max-width : 1500px) {
+  .sub_paragraph { font-size: 1.5rem; }
+}
+
+@media only screen and (max-width : 1080px) {
+  .sub_paragraph { font-size: 1rem ; }
 }
 
 #host_tube {
@@ -204,6 +217,7 @@
 
 .page_stream {
   position: relative;
+  top: -5%;
   -moz-transform: translateY(-100%);
 }
 
@@ -243,6 +257,6 @@
 }
 
 #donate_para {
-  max-width: 30vmin;
+  max-width: 40vmin;
   padding-bottom: 1vmin;
 }
