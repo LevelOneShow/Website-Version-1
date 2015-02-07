@@ -206,7 +206,6 @@
   -webkit-transform: translateY(40%);
   width: 35px;
   height: 35px;
-  /* filter:progid:DXImageTransform.Microsoft.BasicImage(invert=1); This doesn't work anymore because it's apparently deprecated */
   -webkit-filter: invert(1);
   filter: invert(100%);
   transition-duration: 0.4s;

@@ -2,7 +2,7 @@
 <html>
   <!-- Credits, License, and all other pertinent information is located in the
   README.md file. You can also view the read me at stillapoet.com/mrflynn/lvloneshow.
-  Report all bugs to admin@lvloneshow.com.-->
+  Report all bugs to admin@lvloneshow.com. -->
   <head>
     <title>The Level One Show</title>
     <meta name="theme-color" content="#20384a">
@@ -22,7 +22,7 @@
           <div class="navbar">
             <a class="navitem" onclick="moveTo('.main', 2);" href="javascript:void(0);">Hosts</a>
             <p class="sep">|</p>
-            <a class="navitem" href="pages/team.html">Team</a>
+            <a class="navitem" href="pages/index.html">Team</a>
             <p class="sep">|</p>
             <a class="navitem" id="important" onclick="moveTo('.main', 3);" href="javascript:void(0);">Stream & Donations</a>
             <p class="sep">|</p>
@@ -78,26 +78,26 @@
           </div>
           <div class="other_profile">
             <div class="profimg-div">
-              <img class="profimg-img" src="images/imgo.jpg" alt="kuangs's profile">
+              <img class="profimg-img" src="images/imgo.png" alt="kuangs's profile">
             </div>
             <div class="host_info">
               <h1 class="subtitle" id="hosttitle">Murgo</h1>
               <div class="social_links">
-                <a href="https://www.youtube.com/KuangSteak">
+                <a href="https://www.youtube.com/user/MurgoLP">
                   <img class="youtube" id="host_tube" src="icons/social18.svg" alt="kuang_youtube">
                 </a>
-                <a href="https://www.twitter.com/KuangSteak">
+                <a href="https://twitter.com/MurgoLP">
                   <img class="twitter" src="icons/social71.svg" alt="kuang_twitter">
                 </a>
               </div>
               <!-- Descriptions -->
-              <p class="sub_paragraph">Replace this with Murgo's description.</p>
+              <p class="sub_paragraph"> Hey guys! My name is Murgo and I absolutely
+                love video games. I am 14 living in a mans body exploring the world
+                and telling my tales. Today I am here as the co-host on The Level
+                One Show. Most of my personality can be categorized as overconfident,
+                but that's what gives me my positive look on life.</p>
             </div>
           </div>
-          <!-- <div class="team_link">
-            <a class="team_page" href="pages/team.html">Go to the Rest of the Team</a>
-            <img class="goto" src="icons/arrow487.svg" alt="goto">
-          </div> Not sure what to do with this...-->
         </div>
       </section>
       <section id="stream">
@@ -121,11 +121,6 @@
       </section>
     </div>
     <!-- This is the script for the scrolling pages-->
-    <script>
-      onePageScroll(".main", {
-        loop: true,
-        keyboard: true
-      });
-    </script>
+    <script>onePageScroll(".main",{loop:!0,keyboard:!0});</script>
   </body>
 </html>
