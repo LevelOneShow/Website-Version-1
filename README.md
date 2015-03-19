@@ -1,4 +1,4 @@
-# Level One Show Website - Licensing Information
+# Level One Show Website v1 - Licensing Information
 ## Issues:
 If you find an issues, bugs, incompatibilities, or just general feedback, email the site admin at
 admin@lvloneshow.com. Thanks!
